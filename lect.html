@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LectJs</title>
+    <link rel="stylesheet" href="style/lect.css">
+  </head>
+  <body>
+    <h2>Update Css Variable With <span class="hl">JS</span></h2>
+    <div class="controls">
+      <label for="spacing">Spacing</label>
+      <input 
+        type="range"
+        name="spacing"
+        id="spacing"
+        min="10"
+        max="200"
+        value="10"
+        data-sizing="px"
+        
+      />
+
+      <label for="blur">Blur</label>
+      <input
+        type="range"
+        name="blur"
+        id="blur"
+        min="0"
+        max="25"
+        value="10"
+        data-sizing="px"
+      />
+
+      <label for="base">Base Color</label>
+      <input
+        type="color"
+        name="base"
+        id="base"
+        value="#00538f"
+      />
+   
+    </div>
+    <img src="media/imgTest.jpg" alt="image">
+    <script src="js/lect.js"></script>
+  </body>
+</html>

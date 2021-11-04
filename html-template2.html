@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hml-Css-Template2</title>
+    <link rel="stylesheet" href="style/test.css" />
+    <link rel="stylesheet" href="style/all.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <img src="media/logo.png" alt="logo" />
+          <!-- nav-list -->
+          <nav class="navbar">
+            <ul class="list-style">
+              <li class="dropdown">
+                <a class="link-item" href="#"> furniture</a>
+                <div class="drop-menu">
+                  <!-- first-item -->
+                  <div class="drop-menu-item first">
+                    <ul class="list-style">
+                      <li><a href="#">Table</a></li>
+                      <li><a href="#">Study Table</a></li>
+                      <li><a href="#">Coffee Table</a></li>
+                      <li><a href="#">Stools</a></li>
+                      <li><a href="#">Writting Disk</a></li>
+                    </ul>
+                    <!-- ./lis-style -->
+                  </div>
+                  <!-- ./drop-menu-item -->
+                  <!-- second-item -->
+                  <div class="drop-menu-item">
+                    <ul class="list-style">
+                      <li><a href="#">Dining</a></li>
+                      <li><a href="#">Dining Chair</a></li>
+                      <li><a href="#">Day Beds</a></li>
+                      <li><a href="#">Poufs</a></li>
+                      <li><a href="#">Lounge Chairs</a></li>
+                    </ul>
+                    <!-- ./list-style -->
+                  </div>
+                  <!-- ./drop-menu-item -->
+                  <!-- third-item -->
+                  <div class="drop-menu-item">
+                    <ul class="list-style">
+                      <li><a href="#">Sofas</a></li>
+                      <li><a href="#"> ArmChairs</a></li>
+                      <li><a href="#">Coffee Table</a></li>
+                      <li><a href="#">Stools</a></li>
+                      <li><a href="#">Writting Disk</a></li>
+                    </ul>
+                    <!-- ./list-style -->
+                  </div>
+                  <!-- ./drop-menu-item -->
+                </div>
+                <!-- ./drop-menu -->
+              </li>
+              <li>
+                <a class="link-item" class="link-iem" href="#"> Armoires</a>
+              </li>
+              <li><a class="link-item" href="#"> Study Table</a></li>
+              <li class="dropdown-second">
+                <a class="link-item" href="#"> Plastic Chair</a>
+                <ul class="list-style drop-list">
+                  <li><a href="#">Bookshelves</a></li>
+                  <li><a href="#">Cupboards</a></li>
+                  <li><a href="#">Shoe Racks</a></li>
+                </ul>
+              </li>
+              <li><a class="link-item" href="#"> Wordobes</a></li>
+              <li class="third-drop">
+                <a class="link-item" href="#"> More</a>
+                <ul class="list-style drop-list-three">
+                  <li><a href="#">Office Chairs</a></li>
+                  <li><a href="#">Wooden Chairs</a></li>
+                  <li><a href="#">Blogs</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- ./nav-list-style -->
+          </nav>
+          <!-- ./navbar -->
+          <!-- login -->
+          <div class="login">
+            <ul class="list-style">
+              <li><i class="fa fa-search fa-lg"></i></li>
+              <li><i class="fa fa-user fa-lg"></i></li>
+              <li><i class="fa fa-cart-plus fa-lg"></i> Your Bag</li>
+            </ul>
+          </div>
+          <!-- ./login -->
+        </div>
+        <!-- ./header-content -->
+      </div>
+      <!-- ./container -->
+    </header>
+
+    <!-- Slider-Section -->
+    <section class="slider">
+      <div class="container">
+        <div class="slider-images">
+          <img name="sliderImage" alt="mainImage" />
+          <span
+            class="arrow next"
+            onclick="myNext()"
+            onload="myinfinite()"
+          ></span>
+          <span class="arrow prev" onclick="myPrev()"></span>
+          <span class="dot next" onclick="myNext()"></span>
+          <span class="dot prev" onclick="myNext()"></span>
+        </div>
+        <!-- ./slider-images -->
+      </div>
+      <!-- ./container -->
+    </section>
+    <!--category section-->
+    <section class="category pd">
+      <div class="section-header">
+        <h2 class="section-title">Special Category</h2>
+        <span class="line"></span>
+      </div>
+      <!-- ./section-header -->
+      <div class="container">
+        <!-- first-item -->
+        <div class="category-items">
+          <div class="category-item">
+            <img src="media/category-banner1.jpg" alt="category" />
+            <h4 class="category-item-subtitle">Most Poplur</h4>
+            <h3 class="category-item-title">Modern Chair Collections</h3>
+            <i class="icon fa fa-angle-double-right fa-2x"></i>
+          </div>
+          <!-- ./category-item -->
+          <!-- second-item -->
+          <div class="category-item">
+            <img src="media/category-banner2.jpg" alt="category" />
+            <h4 class="category-item-subtitle">Most Poplur</h4>
+            <h3 class="category-item-title">Classic Chair Collections</h3>
+            <i class="icon fa fa-angle-double-right fa-2x"></i>
+          </div>
+          <!-- ./category-item -->
+          <!-- third-item -->
+          <div class="category-item">
+            <img src="media/category-banner3.jpg" alt="category" />
+            <h4 class="category-item-subtitle">Most Poplur</h4>
+            <h3 class="category-item-title">Wooden Chair Collections</h3>
+            <i class="icon fa fa-angle-double-right fa-2x"></i>
+          </div>
+          <!-- ./category-item -->
+          <!-- fourth-item -->
+          <div class="category-item">
+            <img src="media/category-banner4.jpg" alt="category" />
+            <h4 class="category-item-subtitle">Most Poplur</h4>
+            <h3 class="category-item-title">Study Chair Collections</h3>
+            <i class="icon fa fa-angle-double-right fa-2x"></i>
+          </div>
+          <!-- ./category-item -->
+        </div>
+        <!-- category-items -->
+
+        <!-- disccount -->
+
+        <div class="disccount">
+          <div class="disccount-desc">
+            <div class="top">
+              <i class="icon fas fa-quote-left fa-3x"></i>
+              <h2 class="disccount-desc-title">Penelope Astrid</h2>
+              <span class="disccount-desc-subtitle">[Markting]</span>
+            </div>
+            <!-- ./top -->
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has text Lorem Ipsum is simply dummy text of
+              the printing and typesetting industry. Lorem Ipsum is simply dummy
+              text of the printing and typesetting industry. luies charls (Web
+              Designer) Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry. Lorem Ipsum has text Lorem Ipsum is simply
+              dummy text of the printing and typesetting industry. Lorem Ipsum
+              is simply dummy text of the printing and typesetting industry.
+              jecob goeckno (HR Manager) Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry. Lorem Ipsum has text Lorem
+              Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry.
+            </p>
+            <div class="bollets">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <!-- ./bollets -->
+          </div>
+          <!-- ./disccount-desc -->
+          <!-- first-item -->
+          <div class="disccount-items">
+            <div class="disccount-items-info">
+              <img src="media/cms-banner-1.jpg" alt="banner" />
+              <div class="disccount-titles">
+                <h3 class="disccount-item-subtitle">30% Discount</h3>
+                <h2 class="disccount-item-title">Designing interior</h2>
+              </div>
+              <!-- ./disccount-titles -->
+            </div>
+            <!-- ./disccount-items-info -->
+          </div>
+          <!-- ./disccount-items -->
+
+          <!-- second-item -->
+          <div class="disccount-items">
+            <div class="disccount-items-info">
+              <img src="media/cms-banner-2.jpg" alt="banner" />
+              <div class="disccount-titles">
+                <h3 class="disccount-item-subtitle">20% Discountt</h3>
+                <h2 class="disccount-item-title">Wooden Study Table</h2>
+              </div>
+              <!-- ./disccount-titles -->
+            </div>
+            <!-- ./disccount-items-info -->
+          </div>
+          <!-- ./disccount-items -->
+
+          <!-- disccouont-items -->
+        </div>
+        <!-- ./disccount -->
+
+        <!-- claass sprites -->
+        <div class="sprites">
+          <!-- first-item -->
+          <div class="sprites-iems">
+            <div class="sprites-icon sprites-icon-1"></div>
+            <div class="sprites-info">
+              <h3>Free Delivery</h3>
+              <h5>Free Shipping On All Order</h5>
+            </div>
+            <!--./ sprites-icon sprites-icon-1 -->
+          </div>
+          <!-- ./sprites-items -->
+          <!-- second-item -->
+          <div class="sprites-iems">
+            <div class="sprites-icon sprites-icon-2"></div>
+            <div class="sprites-info">
+              <h3>Money Return</h3>
+              <h5>Back Guarantee in 7 days</h5>
+            </div>
+            <!--./ sprites-icon sprites-icon-2 -->
+          </div>
+          <!-- ./sprites-items -->
+          <!-- third-iitem -->
+          <div class="sprites-iems">
+            <div class="sprites-icon sprites-icon-3"></div>
+            <div class="sprites-info">
+              <h3>Member Discount</h3>
+              <h5>On every order over $130.00</h5>
+            </div>
+            <!--./ sprites-icon sprites-icon-3 -->
+          </div>
+          <!-- ./sprites-items -->
+          <!-- fourth-item -->
+          <div class="sprites-iems">
+            <div class="sprites-icon sprites-icon-4"></div>
+            <div class="sprites-info">
+              <h3>Online Support</h3>
+              <h5>Support 24 hours a day</h5>
+            </div>
+            <!--./ sprites-icon sprites-icon-4 -->
+          </div>
+          <!-- ./sprites-items -->
+
+          <!-- fifth-item -->
+          <div class="sprites-iems">
+            <div class="sprites-icon sprites-icon-5"></div>
+            <div class="sprites-info">
+              <h3>Return Policy</h3>
+              <h5>Send within 30 days</h5>
+            </div>
+            <!--./ sprites-icon sprites-icon-5 -->
+          </div>
+          <!-- ./sprites-items -->
+        </div>
+        <!-- ./sprites -->
+        <hr />
+      </div>
+      <!-- ./container -->
+    </section>
+    <!-- ./section category -->
+    <!-- ./section -->
+
+    <section class="product pd">
+      <div class="section-header">
+        <h2 class="section-title">Featured Products</h2>
+        <span class="line"></span>
+      </div>
+      <!-- ./section-header -->
+      <div class="container">
+        <ul class="list-product list-style">
+          <li class="first-element"><a href="#">Wooden Chair</a></li>
+          <li><a href="#">Plastic Chair</a></li>
+          <li><a href="#">Study Table</a></li>
+          <li><a href="#">Armoires</a></li>
+        </ul>
+        <!-- ./list-product -->
+        <div class="product-items">
+          <!-- first-item -->
+          <div class="product-item">
+            <div class="product-img">
+              <img src="media/chair1.jpg" alt="chair" />
+              <!-- overlay -->
+              <div class="product-overlay">
+                <img src="media/chair2.jpg" alt="chair" />
+                <ul class="list-style">
+                  <li><i class="far fa-heart"></i></li>
+                  <li><i class="fa fa-eye fa-lg"></i></li>
+                  <li><i class="fab fa-stack-exchange"></i></li>
+                  <li><i class="fa fa-shopping-cart fa-lg"></i></li>
+                </ul>
+              </div> <!-- ./product-overlay -->
+              <div class="product-info"> 
+                <i class="active fa fa-star fa-sm"></i>
+                <i class="active fa fa-star fa-sm"></i>
+                <i class="active fa fa-star fa-sm"></i>
+                <i class="active fa fa-star fa-sm"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <h5>Aliquam Quaerat</h5>
+              <h3>$ 108.80</h3>
+            </div>
+            <!-- product-img -->
+          </div>
+          <!-- ./product-item -->
+          <!-- second-item -->
+          <div class="product-item">
+            <div class="product-img">
+              <img src="media/chair3.jpg" alt="chair" />
+              <!-- overlay -->
+              <div class="product-overlay">
+                <img src="media/chair4.jpg" alt="chair" />
+                <ul class="list-style">
+                  <li><i class="far fa-heart"></i></li>
+                  <li><i class="fa fa-eye fa-lg"></i></li>
+                  <li><i class="fab fa-stack-exchange"></i></li>
+                  <li><i class="fa fa-shopping-cart fa-lg"></i></li>
+                </ul>
+              </div> <!-- ./product-overlay -->
+              <div class="product-info"> 
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <h5>Consectur Hampden</h5>
+              <div class="product-info-dollar"> 
+              <h3>$ 110.00 </h3> 
+              <s> $ 119.60</s>
+            </div> <!-- ./product-info-dollar -->
+            </div>
+            <!-- product-img -->
+          </div>
+          <!-- product-item -->
+
+          <!-- third-item -->
+          <div class="product-item">
+            <div class="product-img">
+              <img src="media/chair5.jpg" alt="chair" />
+              <!-- overlay -->
+              <div class="product-overlay">
+                <img src="media/chair6.jpg" alt="chair" />
+                <ul class="list-style">
+                  <li><i class="far fa-heart"></i></li>
+                  <li><i class="fa fa-eye fa-lg"></i></li>
+                  <li><i class="fab fa-stack-exchange"></i></li>
+                  <li><i class="fa fa-shopping-cart fa-lg"></i></li>
+                </ul>
+              </div> <!-- ./product-overlay -->
+
+              <div class="product-info"> 
+                <i class="active fa fa-star fa-sm"></i>
+                <i class="active fa fa-star fa-sm"></i>
+                <i class="active fa fa-star fa-sm"></i>
+                <i class="active fa fa-star fa-sm"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <h5>Laborum Eveniet</h5>
+              <h3>$ 97.99</h3>
+            </div>
+            <!-- product-img -->
+          </div>
+          <!-- product-item -->
+
+          <div class="product-item">
+            <div class="product-img">
+              <img src="media/chair1.jpg" alt="chair" />
+              <!-- overlay -->
+              <div class="product-overlay">
+                <img src="media/chair2.jpg" alt="chair" />
+                <ul class="list-style">
+                  <li><i class="far fa-heart"></i></li>
+                  <li><i class="fa fa-eye fa-lg"></i></li>
+                  <li><i class="fab fa-stack-exchange"></i></li>
+                  <li><i class="fa fa-shopping-cart fa-lg"></i></li>
+                </ul>
+              </div> <!-- ./product-overlay -->
+              <div class="product-info"> 
+                <i class="active fa fa-star fa-sm"></i>
+                <i class="active fa fa-star fa-sm"></i>
+                <i class="active fa fa-star fa-sm"></i>
+                <i class="active fa fa-star fa-sm"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <h5>Aliquam Quaerat</h5>
+              <h3>$ 108.80</h3>
+            </div>
+            <!-- product-img -->
+          </div>
+          <!-- ./product-item -->
+          <!-- second-item -->
+          <div class="product-item">
+            <div class="product-img">
+              <img src="media/chair3.jpg" alt="chair" />
+              <!-- overlay -->
+              <div class="product-overlay">
+                <img src="media/chair4.jpg" alt="chair" />
+                <ul class="list-style">
+                  <li><i class="far fa-heart"></i></li>
+                  <li><i class="fa fa-eye fa-lg"></i></li>
+                  <li><i class="fab fa-stack-exchange"></i></li>
+                  <li><i class="fa fa-shopping-cart fa-lg"></i></li>
+                </ul>
+              </div> <!-- ./product-overlay -->
+              <div class="product-info"> 
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <h5>Consectur Hampden</h5>
+              <div class="product-info-dollar"> 
+              <h3>$ 110.00 </h3> 
+              <s> $ 119.60</s>
+            </div> <!-- ./product-info-dollar -->
+            </div>
+            <!-- product-img -->
+          </div>
+          <!-- product-item -->
+
+          <!-- third-item -->
+          <div class="product-item">
+            <div class="product-img">
+              <img src="media/chair5.jpg" alt="chair" />
+              <!-- overlay -->
+              <div class="product-overlay">
+                <img src="media/chair6.jpg" alt="chair" />
+                <ul class="list-style">
+                  <li><i class="far fa-heart"></i></li>
+                  <li><i class="fa fa-eye fa-lg"></i></li>
+                  <li><i class="fab fa-stack-exchange"></i></li>
+                  <li><i class="fa fa-shopping-cart fa-lg"></i></li>
+                </ul>
+              </div> <!-- ./product-overlay -->
+
+              <div class="product-info"> 
+                <i class="active fa fa-star fa-sm"></i>
+                <i class="active fa fa-star fa-sm"></i>
+                <i class="active fa fa-star fa-sm"></i>
+                <i class="active fa fa-star fa-sm"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <h5>Laborum Eveniet</h5>
+              <h3>$ 97.99</h3>
+            </div>
+            <!-- product-img -->
+          </div>
+        </div>
+        <!-- ./product-items -->
+      </div>
+      <!-- ./container -->
+    </section>
+
+    <script src="js/test1.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+:root{
+    --spacing:10;
+    --base:#080;
+    --blur:10;
+}
+img{
+    padding: var(--spacing);
+    background-color: var(--base);
+    filter: blur(var(--blur));
+}
+.hl{
+    color: var(--base);
+}
+body{
+    text-align: center;
+    background-color: #193549;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 50PX;
+}
+.controls{
+    margin:50px auto;
+
+}
+input{
+    width: 100px;
+}
